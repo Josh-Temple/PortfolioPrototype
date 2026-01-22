@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ポートフォリオ | あなたの名前</title>
+    <meta
+      name="description"
+      content="個人開発・UI設計を中心にした日本語メインのポートフォリオサイトです。"
+    />
+    <meta property="og:title" content="ポートフォリオ | あなたの名前" />
+    <meta
+      property="og:description"
+      content="作品紹介と自己紹介をまとめたポートフォリオ。"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <a class="logo" href="index.html">Portfolio</a>
+        <nav class="nav-links" aria-label="メインナビゲーション">
+          <a href="projects.html">Projects</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>あなたの名前 / 個人開発</h1>
+        <p class="lead">使いやすさと拡張性を大切にした、個人開発のポートフォリオ。</p>
+        <p class="tags">関心領域：AI × 個人開発 / UI設計 / 学習アプリ</p>
+        <div class="button-group">
+          <a class="button primary" href="projects.html">作品を見る</a>
+          <a class="button" href="about.html">自己紹介</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Featured Projects</h2>
+        <p>現在注力している3つのプロジェクトです。</p>
+        <div class="card-grid" data-projects="featured"></div>
+      </section>
+
+      <section class="section">
+        <h2>Focus</h2>
+        <div class="focus-list">
+          <div class="card">
+            <h3>課題の言語化</h3>
+            <p>ユーザーの困りごとを短い言葉で整理し、機能に落とし込みます。</p>
+          </div>
+          <div class="card">
+            <h3>軽量な体験</h3>
+            <p>必要最低限の構成で、読み込みが速いUIを作ります。</p>
+          </div>
+          <div class="card">
+            <h3>継続できる設計</h3>
+            <p>後から機能追加しやすい、拡張性のある構成を意識しています。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Short About</h2>
+        <div class="short-about">
+          <p>
+            個人開発を通じて「学び続けられるプロダクト」を作ることを目指しています。
+            情報の整理と読みやすさを重視し、UIと体験を丁寧に設計します。
+            新しい技術は小さく試し、検証しながら取り入れるスタイルです。
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Links</h2>
+        <div class="card">
+          <div class="link-list">
+            <a href="#">GitHub</a>
+            <a href="#">note</a>
+            <a href="#">X (Twitter)</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">© 2024 Your Name. 更新しやすい構成で運用中。</div>
+    </footer>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
